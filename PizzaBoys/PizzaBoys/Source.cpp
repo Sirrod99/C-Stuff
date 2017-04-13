@@ -10,6 +10,7 @@ int main()
 	int topping;
 	//float pizzaTotal;
 	int pizzaSize;
+	double response;
 
 
 
@@ -82,7 +83,13 @@ int main()
 
 	}
 
+	std::cout << "Would you like to buy another pizza? Press 1 to do so." << std::endl;
+	std::cin >> response;
 
+	do
+	{
+		int main();
+	} while (response == 1);
 
 
 

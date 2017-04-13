@@ -9,6 +9,7 @@ int main()
 	double amountStaying;
 	double nightsStaying;
 	double totalCost;
+	double response;
 
 	std::cout << "Welcome to Hotel Grandeur my boi, what's in yo pocket doe. \nI am not from this country." << std::endl;
 
@@ -28,6 +29,14 @@ int main()
 		"\nFor telephone, tell your buddies to hold off." << std::endl;
 
 	std::cout << "Now to leave, and you own me $" << totalCost << " Now get out, and never return!" << std::endl;
+
+	std::cout << "Would you like calculate another hotel room charge? Press 1 to do so." << std::endl;
+	std::cin >> response;
+
+	do
+	{
+		int main();
+	} while (response == 1);
 
 
 }
